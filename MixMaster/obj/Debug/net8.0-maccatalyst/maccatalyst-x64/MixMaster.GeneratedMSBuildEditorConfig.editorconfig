@@ -40,11 +40,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = MixMaster.Resources.Styles
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Terence/source/repos/MixMaster/MixMaster/View/FaqNotificationPage.xaml]
+[C:/Users/Terence/source/repos/MixMaster/MixMaster/View/FaqPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MixMaster.View.FaqNotificationPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\FaqNotificationPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\FaqNotificationPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MixMaster.View.FaqPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\FaqPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\FaqPage.xaml
 
 [C:/Users/Terence/source/repos/MixMaster/MixMaster/View/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

@@ -214,3 +214,5 @@ C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.1
 C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-100.png
 C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png
 C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-100.png
+C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MixMaster.sourcelink.json
+C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\faq.scale-100.png

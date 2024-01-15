@@ -9,11 +9,5 @@ namespace MixMaster.View
         {
             InitializeComponent();
         }
-
-        private async void OnFaqButtonClicked(object sender, EventArgs e)
-        {
-            var faqPage = new FaqNotificationPage(); // Assuming FaqNotificationPage is your modal page
-            await Navigation.PushModalAsync(faqPage);
-        }
     }
 }

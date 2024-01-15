@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-15T20:16:03.579</Modified>
+      <Modified>2024-01-15T21:16:57.540</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-15T20:11:50.608</Modified>
+      <Modified>2024-01-15T21:16:57.421</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MixMaster.runtimeconfig.json">
       <PackagePath>MixMaster.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MixMaster.dll">
       <PackagePath>MixMaster.dll</PackagePath>
-      <Modified>2024-01-15T20:16:03.279</Modified>
+      <Modified>2024-01-15T21:16:56.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MixMaster.exe</PackagePath>
-      <Modified>2024-01-15T20:16:03.298</Modified>
+      <Modified>2024-01-15T21:16:56.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -304,23 +304,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.340</Modified>
+      <Modified>2024-01-15T21:16:40.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.347</Modified>
+      <Modified>2024-01-15T21:16:40.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.357</Modified>
+      <Modified>2024-01-15T21:16:40.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.369</Modified>
+      <Modified>2024-01-15T21:16:40.562</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.413</Modified>
+      <Modified>2024-01-15T21:16:40.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\drake.scale-100.png">
       <PackagePath>drake.scale-100.png</PackagePath>
@@ -329,6 +329,10 @@
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fan.scale-100.png">
       <PackagePath>fan.scale-100.png</PackagePath>
       <Modified>2024-01-14T21:01:49.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\faq.scale-100.png">
+      <PackagePath>faq.scale-100.png</PackagePath>
+      <Modified>2024-01-15T21:16:37.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\flashing.scale-100.png">
       <PackagePath>flashing.scale-100.png</PackagePath>
@@ -444,7 +448,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MixMaster.deps.json">
       <PackagePath>MixMaster.deps.json</PackagePath>
-      <Modified>2024-01-15T19:59:23.315</Modified>
+      <Modified>2024-01-15T20:49:09.409</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

@@ -13,9 +13,8 @@
                 BackgroundColor="#3A3F42"
                 VerticalOptions="Center"
                 Margin="16,8,16,8" />
-                
+
             </Frame>
-            <Button Text="FAQ" Clicked="OnFaqButtonClicked" VerticalOptions="Center" HeightRequest="40" WidthRequest="70"/>
 
             <Frame BorderColor="Transparent" BackgroundColor="#030303">
                 <Grid ColumnDefinitions="*,Auto,Auto" RowDefinitions="*">
