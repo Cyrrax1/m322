@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MixMaster.View.LibraryPage " BackgroundColor="#030303">
+
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <!-- Section Header -->
+            <Frame BorderColor="Transparent" BackgroundColor="#030303">
+                <Grid ColumnDefinitions="*,Auto,Auto" RowDefinitions="*">
+                    <Label Grid.Column="0" FontFamily="PoppinsBold" Text="Your Library" FontSize="24" Margin="26,30,0,0" HorizontalOptions="Start" VerticalOptions="Center" />
+                </Grid>
+            </Frame>
+
+            <!-- Playlist Item 1 -->
+            <Frame Margin="10" Padding="0" CornerRadius="10" BorderColor="Transparent" HeightRequest="180">
+                <Grid>
+                    <Image Source="party.png" Aspect="AspectFill"/>
+
+                    <!-- Text positioned at the bottom left -->
+                    <VerticalStackLayout HorizontalOptions="Start" VerticalOptions="End" Padding="30,0,0,70">
+                        <Label FontFamily="PoppinsBold" Text="Your Music" FontAttributes="Bold" FontSize="14" TextColor="White"/>
+                        <Label FontFamily="PoppinsBold" Text="On Repeat" FontSize="30" TextColor="White"/>
+                    </VerticalStackLayout>
+
+                    <!-- Play button positioned at the bottom right -->
+                    <ImageButton Source="play.png" WidthRequest="30" HeightRequest="30" HorizontalOptions="End" VerticalOptions="End" BackgroundColor="Transparent" Margin="0,0,30,20"/>
+                </Grid>
+            </Frame>
+
+            <Frame Margin="10" Padding="0" CornerRadius="10" BorderColor="Transparent" HeightRequest="180">
+                <Grid>
+                    <Image Source="vinyl.png" Aspect="AspectFill"/>
+
+                    <!-- Text positioned at the bottom left -->
+                    <VerticalStackLayout HorizontalOptions="Start" VerticalOptions="End" Padding="30,0,0,70">
+                        <Label FontFamily="PoppinsBold" Text="Pashanim, Dante YN, 01099 and co." FontAttributes="Bold" FontSize="14" TextColor="White"/>
+                        <Label FontFamily="PoppinsBold" Text="My Supermix" FontSize="30" TextColor="White"/>
+                    </VerticalStackLayout>
+
+                    <!-- Play button positioned at the bottom right -->
+                    <ImageButton Source="play.png" WidthRequest="30" HeightRequest="30" HorizontalOptions="End" VerticalOptions="End" BackgroundColor="Transparent" Margin="0,0,30,20"/>
+                </Grid>
+            </Frame>
+
+            <Frame Margin="10" Padding="0" CornerRadius="10" BorderColor="Transparent" HeightRequest="180">
+                <Grid>
+                    <Image Source="chill.png" Aspect="AspectFill"/>
+
+                    <!-- Text positioned at the bottom left -->
+                    <VerticalStackLayout HorizontalOptions="Start" VerticalOptions="End" Padding="30,0,0,70">
+                        <Label FontFamily="PoppinsBold" Text="Travis Scott, Ken Carson, Quavo and co." FontAttributes="Bold" FontSize="14" TextColor="White"/>
+                        <Label FontFamily="PoppinsBold" Text="My Supermix" FontSize="30" TextColor="White"/>
+                    </VerticalStackLayout>
+
+                    <!-- Play button positioned at the bottom right -->
+                    <ImageButton Source="play.png" WidthRequest="30" HeightRequest="30" HorizontalOptions="End" VerticalOptions="End" BackgroundColor="Transparent" Margin="0,0,30,20"/>
+                </Grid>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

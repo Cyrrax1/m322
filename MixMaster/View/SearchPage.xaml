@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MixMaster.View.SearchPage" BackgroundColor="#030303">
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <Frame BorderColor="Transparent" BackgroundColor="Transparent">
+                <SearchBar Grid.Column="1"
+                Placeholder="Search..."
+                MaximumWidthRequest="800"
+                BackgroundColor="#3A3F42"
+                VerticalOptions="Center"
+                Margin="16,8,16,8" />
+                
+            </Frame>
+            <Button Text="FAQ" Clicked="OnFaqButtonClicked" VerticalOptions="Center" HeightRequest="40" WidthRequest="70"/>
+
+            <Frame BorderColor="Transparent" BackgroundColor="#030303">
+                <Grid ColumnDefinitions="*,Auto,Auto" RowDefinitions="*">
+
+                    <Label Grid.Column="0" FontFamily="PoppinsBold" Text="Recent searches" FontSize="24" Margin="26,30,0,24" HorizontalOptions="Start" VerticalOptions="Center" />
+
+                    <Button Grid.Column="2"
+                Text="Clear" TextColor="White" 
+                BackgroundColor="#1C1C1E" 
+                MaximumHeightRequest="50" 
+                MaximumWidthRequest="100" 
+                HorizontalOptions="End" VerticalOptions="Center">
+                    </Button>
+                </Grid>
+            </Frame>
+
+
+
+            <Frame BackgroundColor="Transparent" Padding="8" HeightRequest="53" BorderColor="Transparent" Margin="40,0,16,16">
+                <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="*">
+                    <!-- Image on the left -->
+                    <Image Source="travis.png" Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
+               HeightRequest="40" WidthRequest="40" VerticalOptions="Center" />
+
+                    <!-- Text and description on the right with added left margin for spacing -->
+                    <StackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="Center" Margin="20,0,0,0">
+                        <Label FontFamily="PoppinsBold" Text="Travis Scott" FontSize="13" TextColor="#99D5FA" />
+                        <Label FontFamily="PoppinsRegular" Text="Artist" FontSize="12" TextColor="White" />
+                    </StackLayout>
+
+                    <!-- Arrow graphic on the right -->
+                    <Image Source="arrow.png" Grid.Column="2" Grid.Row="0"
+               HeightRequest="24" WidthRequest="24" VerticalOptions="Center" />
+                </Grid>
+            </Frame>
+
+            <Frame BackgroundColor="Transparent" Padding="8" HeightRequest="53" BorderColor="Transparent" Margin="40,0,16,16">
+                <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="*">
+                    <!-- Image on the left -->
+                    <Image Source="drake.png" Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
+               HeightRequest="40" WidthRequest="40" VerticalOptions="Center" />
+
+                    <!-- Text and description on the right with added left margin for spacing -->
+                    <StackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="Center" Margin="20,0,0,0">
+                        <Label FontFamily="PoppinsBold" Text="Drake" FontSize="13" TextColor="#99D5FA" />
+                        <Label FontFamily="PoppinsRegular" Text="Artist" FontSize="12" TextColor="White" />
+                    </StackLayout>
+
+                    <!-- Arrow graphic on the right -->
+                    <Image Source="arrow.png" Grid.Column="2" Grid.Row="0"
+               HeightRequest="24" WidthRequest="24" VerticalOptions="Center" />
+                </Grid>
+            </Frame>
+
+            <Frame BackgroundColor="Transparent" Padding="8" HeightRequest="53" BorderColor="Transparent" Margin="40,0,16,16">
+                <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="*">
+                    <!-- Image on the left -->
+                    <Image Source="rodeo.png" Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
+               HeightRequest="40" WidthRequest="40" VerticalOptions="Center" />
+
+                    <!-- Text and description on the right with added left margin for spacing -->
+                    <StackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="Center" Margin="20,0,0,0">
+                        <Label FontFamily="PoppinsBold" Text="Rodeo" FontSize="13" TextColor="#99D5FA" />
+                        <Label FontFamily="PoppinsRegular" Text="Album" FontSize="12" TextColor="White" />
+                    </StackLayout>
+
+                    <!-- Arrow graphic on the right -->
+                    <Image Source="arrow.png" Grid.Column="2" Grid.Row="0"
+               HeightRequest="24" WidthRequest="24" VerticalOptions="Center" />
+                </Grid>
+            </Frame>
+
+            <Frame BackgroundColor="Transparent" Padding="8" HeightRequest="53" BorderColor="Transparent" Margin="40,0,16,16">
+                <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="*">
+                    <!-- Image on the left -->
+                    <Image Source="no_more.png" Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
+               HeightRequest="40" WidthRequest="40" VerticalOptions="Center" />
+
+                    <!-- Text and description on the right with added left margin for spacing -->
+                    <StackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="Center" Margin="20,0,0,0">
+                        <Label FontFamily="PoppinsBold" Text="No morë talk" FontSize="13" TextColor="#99D5FA" />
+                        <Label FontFamily="PoppinsRegular" Text="Song" FontSize="12" TextColor="White" />
+                    </StackLayout>
+
+                    <!-- Arrow graphic on the right -->
+                    <Image Source="arrow.png" Grid.Column="2" Grid.Row="0"
+               HeightRequest="24" WidthRequest="24" VerticalOptions="Center" />
+                </Grid>
+            </Frame>
+
+            <Frame BackgroundColor="Transparent" Padding="8" HeightRequest="53" BorderColor="Transparent" Margin="40,0,16,16">
+                <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="*">
+                    <!-- Image on the left -->
+                    <Image Source="offset.png" Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
+               HeightRequest="40" WidthRequest="40" VerticalOptions="Center" />
+
+                    <!-- Text and description on the right with added left margin for spacing -->
+                    <StackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="Center" Margin="20,0,0,0">
+                        <Label FontFamily="PoppinsBold" Text="Offset" FontSize="13" TextColor="#99D5FA" />
+                        <Label FontFamily="PoppinsRegular" Text="Artist" FontSize="12" TextColor="White" />
+                    </StackLayout>
+
+                    <!-- Arrow graphic on the right -->
+                    <Image Source="arrow.png" Grid.Column="2" Grid.Row="0"
+               HeightRequest="24" WidthRequest="24" VerticalOptions="Center" />
+                </Grid>
+            </Frame>
+
+            <Frame BorderColor="Transparent" BackgroundColor="#030303">
+                <Grid ColumnDefinitions="*,Auto,Auto" RowDefinitions="*">
+                    <Label Grid.Column="0" FontFamily="PoppinsBold" Text="Based on what you like" FontSize="24" Margin="26,30,0,0" HorizontalOptions="Start" VerticalOptions="Center" />
+                </Grid>
+            </Frame>
+            
+            
+            
+
+            <Grid ColumnDefinitions="*,*,*,*" RowDefinitions="*,auto" WidthRequest="1240" HeightRequest="450" ColumnSpacing="10">
+
+                <Frame BackgroundColor="#091018" BorderColor="Transparent" Grid.Column="0" Grid.Row="0" HeightRequest="180" WidthRequest="280" Padding="0">
+                    <Grid>
+                        <Image Source="metro.png" Aspect="AspectFill"/>
+                        <!-- Set Aspect to AspectFill -->
+                        <BoxView Color="#1C1C1E" IsVisible="True" Opacity="0.5"/>
+                        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                            <Label FontFamily="PoppinsBold" Text="Metro Boomin" FontSize="20" TextColor="White" />
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+
+                <Frame BackgroundColor="#091018" BorderColor="Transparent" Grid.Column="1" Grid.Row="0" HeightRequest="180" WidthRequest="280" Padding="0">
+                    <Grid>
+                        <Image Source="quavo.png" Aspect="AspectFill"/>
+                        <!-- Set Aspect to AspectFill -->
+                        <BoxView Color="#1C1C1E" IsVisible="True" Opacity="0.5"/>
+                        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                            <Label FontFamily="PoppinsBold" Text="Quavo" FontSize="20" TextColor="White" />
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+
+                <Frame BackgroundColor="#091018" BorderColor="Transparent" Grid.Column="2" Grid.Row="0" HeightRequest="180" WidthRequest="280" Padding="0">
+                    <Grid>
+                        <Image Source="ken.png" Aspect="AspectFill"/>
+                        <!-- Set Aspect to AspectFill -->
+                        <BoxView Color="#1C1C1E" IsVisible="True" Opacity="0.5"/>
+                        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                            <Label FontFamily="PoppinsBold" Text="Ken Carson" FontSize="20" TextColor="White" />
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+
+                <Frame BackgroundColor="#091018" BorderColor="Transparent" Grid.Column="3" Grid.Row="0" HeightRequest="180" WidthRequest="280" Padding="0">
+                    <Grid>
+                        <Image Source="dante.png" Aspect="AspectFill"/>
+                        <!-- Set Aspect to AspectFill -->
+                        <BoxView Color="#1C1C1E" IsVisible="True" Opacity="0.5"/>
+                        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                            <Label FontFamily="PoppinsBold" Text="Dante YN" FontSize="20" TextColor="White" />
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+
+                <Frame BackgroundColor="#091018" BorderColor="Transparent" Grid.Column="0" Grid.Row="1" HeightRequest="180" WidthRequest="280" Padding="0" Margin="0,0,0,32">
+                    <Grid>
+                        <Image Source="pasha.png" Aspect="AspectFill"/>
+                        <!-- Set Aspect to AspectFill -->
+                        <BoxView Color="#1C1C1E" IsVisible="True" Opacity="0.5"/>
+                        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                            <Label FontFamily="PoppinsBold" Text="Pashanim" FontSize="20" TextColor="White" />
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+
+                <Frame BackgroundColor="#091018" BorderColor="Transparent" Grid.Column="1" Grid.Row="1" HeightRequest="180" WidthRequest="280" Padding="0" Margin="0,0,0,32">
+                    <Grid>
+                        <Image Source="playboi.png" Aspect="AspectFill"/>
+                        <!-- Set Aspect to AspectFill -->
+                        <BoxView Color="#1C1C1E" IsVisible="True" Opacity="0.5"/>
+                        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                            <Label FontFamily="PoppinsBold" Text="Playboi Carti" FontSize="20" TextColor="White" />
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+
+                <Frame BackgroundColor="#091018" BorderColor="Transparent" Grid.Column="2" Grid.Row="1" HeightRequest="180" WidthRequest="280" Padding="0" Margin="0,0,0,32">
+                    <Grid>
+                        <Image Source="yeat.png" Aspect="AspectFill"/>
+                        <!-- Set Aspect to AspectFill -->
+                        <BoxView Color="#1C1C1E" IsVisible="True" Opacity="0.5"/>
+                        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                            <Label FontFamily="PoppinsBold" Text="Yeat" FontSize="20" TextColor="White" />
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+
+                <Frame BackgroundColor="#091018" BorderColor="Transparent" Grid.Column="3" Grid.Row="1" HeightRequest="180" WidthRequest="280" Padding="0" Margin="0,0,0,32">
+                    <Grid>
+                        <Image Source="gunna.png" Aspect="AspectFill"/>
+                        <!-- Set Aspect to AspectFill -->
+                        <BoxView Color="#1C1C1E" IsVisible="True" Opacity="0.5"/>
+                        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                            <Label FontFamily="PoppinsBold" Text="Gunna" FontSize="20" TextColor="White" />
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+
+            </Grid>
+
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MixMaster.View.SettingsPage"
+             BackgroundColor="#030303">
+
+    <ScrollView>
+
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <HorizontalStackLayout Spacing="10" Padding="10,0,0,20">
+                <!-- Adjusted padding here -->
+                <Frame WidthRequest="100" 
+                       HeightRequest="100" 
+                       CornerRadius="50" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Center" 
+                       Padding="0" 
+                       IsClippedToBounds="true" 
+                       BackgroundColor="Transparent"
+                       BorderColor="Transparent">
+                    <Image Source="profile.png" 
+                           Aspect="AspectFill" 
+                           HorizontalOptions="FillAndExpand" 
+                           VerticalOptions="FillAndExpand"/>
+                </Frame>
+                <VerticalStackLayout>
+                    <Label Text="User123" TextColor="White" FontSize="Large"/>
+                    <Label Text="556 Following" TextColor="White"/>
+                    <Label Text="929 Followers" TextColor="White"/>
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+
+
+            <!-- Switch für Benachrichtigungen -->
+            <Label Text="Benachrichtigungen" TextColor="White"/>
+            <Switch Toggled="OnSwitchToggled"/>
+
+            <!-- Slider für Lautstärke -->
+            <Label Text="Lautstärke" TextColor="White"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Slider x:Name="volumeSlider" Maximum="100" Minimum="0" ValueChanged="OnSliderValueChanged" Grid.Column="0"/>
+                <Label x:Name="volumeLabel" Text="0%" Grid.Column="1" HorizontalOptions="Start" Margin="20,5,0,0"/>
+            </Grid>
+
+            <!-- Radiobuttons für Themenwahl -->
+            <Label Text="Thema" TextColor="White"/>
+            <RadioButton Content="Helles Thema" GroupName="themes"/>
+            <RadioButton Content="Dunkles Thema" GroupName="themes"/>
+
+            <!-- Picker für Statusmeldung -->
+            <Label Text="Statusmeldung" TextColor="White"/>
+            <Picker x:Name="statusPicker" ItemDisplayBinding="{Binding .}" >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Online</x:String>
+                        <x:String>Beschäftigt</x:String>
+                        <x:String>Abwesend</x:String>
+                        <x:String>Nicht stören</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

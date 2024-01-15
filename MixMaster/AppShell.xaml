@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MixMaster.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:view="clr-namespace:MixMaster.View"
+    FlyoutBackground="#3A3F42"
+    Shell.FlyoutBehavior="Locked"
+    Title="MixMaster" FlyoutWidth="150">
+
+    
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid Padding="10">
+                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                    <Image Source="logo.png" Aspect="AspectFill"/>
+                </Frame>
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <FlyoutItem Title="Home" Icon="home2.png">
+        <ShellContent ContentTemplate="{DataTemplate view:HomePage}" />
+    </FlyoutItem>
+
+
+    <FlyoutItem Title="Search" Icon="search2.png">
+        <ShellContent ContentTemplate="{DataTemplate view:SearchPage}" />
+    </FlyoutItem>
+
+
+    <FlyoutItem Title="Library" Icon="book2.png">
+        <ShellContent ContentTemplate="{DataTemplate view:LibraryPage}" />
+    </FlyoutItem>
+    
+
+    <FlyoutItem Title="Settings" Icon="settings.png">
+        <ShellContent ContentTemplate="{DataTemplate view:SettingsPage}" />
+    </FlyoutItem>
+</Shell>
