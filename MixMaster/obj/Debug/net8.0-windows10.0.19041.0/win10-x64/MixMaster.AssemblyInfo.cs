@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MixMaster")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+01745a3709571b3ea83a254d52217fed600996f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1a7faeb15668a674fe9b5b2e2ef51a75fa978905")]
 [assembly: System.Reflection.AssemblyProductAttribute("MixMaster")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MixMaster")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

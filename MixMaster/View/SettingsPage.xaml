@@ -25,19 +25,19 @@
                            VerticalOptions="FillAndExpand"/>
                 </Frame>
                 <VerticalStackLayout>
-                    <Label Text="User123" TextColor="White" FontSize="Large"/>
-                    <Label Text="556 Following" TextColor="White"/>
-                    <Label Text="929 Followers" TextColor="White"/>
+                    <Label FontFamily="PoppinsBold" Text="User123" TextColor="White" FontSize="Large"/>
+                    <Label FontFamily="PoppinsRegular" Text="556 Following" TextColor="White"/>
+                    <Label FontFamily="PoppinsRegular" Text="929 Followers" TextColor="White"/>
                 </VerticalStackLayout>
             </HorizontalStackLayout>
 
 
             <!-- Switch für Benachrichtigungen -->
-            <Label Text="Benachrichtigungen" TextColor="White"/>
+            <Label FontFamily="PoppinsRegular" Text="Benachrichtigungen" TextColor="White"/>
             <Switch Toggled="OnSwitchToggled"/>
 
             <!-- Slider für Lautstärke -->
-            <Label Text="Lautstärke" TextColor="White"/>
+            <Label FontFamily="PoppinsRegular" Text="Lautstärke" TextColor="White"/>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="200"/>
@@ -45,16 +45,16 @@
                 </Grid.ColumnDefinitions>
 
                 <Slider x:Name="volumeSlider" Maximum="100" Minimum="0" ValueChanged="OnSliderValueChanged" Grid.Column="0"/>
-                <Label x:Name="volumeLabel" Text="0%" Grid.Column="1" HorizontalOptions="Start" Margin="20,5,0,0"/>
+                <Label x:Name="volumeLabel" FontFamily="PoppinsRegular" Text="0%" Grid.Column="1" HorizontalOptions="Start" Margin="20,5,0,0"/>
             </Grid>
 
             <!-- Radiobuttons für Themenwahl -->
-            <Label Text="Thema" TextColor="White"/>
+            <Label FontFamily="PoppinsRegular" Text="Thema" TextColor="White"/>
             <RadioButton Content="Helles Thema" GroupName="themes"/>
             <RadioButton Content="Dunkles Thema" GroupName="themes"/>
 
             <!-- Picker für Statusmeldung -->
-            <Label Text="Statusmeldung" TextColor="White"/>
+            <Label FontFamily="PoppinsRegular" Text="Statusmeldung" TextColor="White"/>
             <Picker x:Name="statusPicker" ItemDisplayBinding="{Binding .}" >
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
