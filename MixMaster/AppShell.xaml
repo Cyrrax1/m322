@@ -19,7 +19,7 @@
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
 
-    <FlyoutItem Title="Home" Icon="home2.png">
+    <FlyoutItem Route="HomePage" Title="Home" Icon="home2.png">
         <ShellContent ContentTemplate="{DataTemplate view:HomePage}" />
     </FlyoutItem>
 
@@ -40,5 +40,13 @@
 
     <FlyoutItem Title="FAQ" Icon="faq.png">
         <ShellContent ContentTemplate="{DataTemplate view:FaqPage}" />
+    </FlyoutItem>
+    
+    <FlyoutItem Title="About" Icon="about.png">
+        <ShellContent ContentTemplate="{DataTemplate view:InfoPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Logout" Icon="logout.png">
+        <ShellContent ContentTemplate="{DataTemplate view:SignOutPage}" />
     </FlyoutItem>
 </Shell>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MixMaster.View.SignOutPage"
+             NavigationPage.HasNavigationBar="False"
+             Shell.FlyoutBehavior="Disabled"
+             BackgroundColor="#030303">
+
+    <Grid ColumnSpacing="0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Central Content -->
+        <VerticalStackLayout Spacing="15" Padding="30" HorizontalOptions="Center" VerticalOptions="Center">
+
+            <!-- Welcome Message -->
+            <Label FontFamily="PoppinsBold" Text="Willkommen bei Mix Master"
+                   TextColor="White"
+                   FontSize="Medium"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,20" />
+
+            <!-- Login Form -->
+            <Entry x:Name="EmailEntry" FontFamily="PoppinsRegular"
+                   Placeholder="Email"
+                   Keyboard="Email"
+                   BackgroundColor="Transparent"
+                   TextColor="White"
+                   PlaceholderColor="Gray"
+                   HorizontalOptions="FillAndExpand" />
+
+            <Entry x:Name="PasswordEntry" FontFamily="PoppinsRegular"
+                   Placeholder="Password"
+                   IsPassword="True"
+                   BackgroundColor="Transparent"
+                   TextColor="White"
+                   PlaceholderColor="Gray"
+                   HorizontalOptions="FillAndExpand" />
+
+            <Label x:Name="ErrorMessageLabel" FontFamily="PoppinsRegular"
+                   Text="Invalid email or empty password"
+                   TextColor="Red"
+                   IsVisible="False"
+                   HorizontalOptions="Center" />
+
+            <Button x:Name="LoginButton"
+                    BackgroundColor="LightBlue"
+                    Text="Log in"
+                    TextColor="Black"
+                    Clicked="HomeClick"
+                    CornerRadius="10"
+                    FontSize="16"
+                    Padding="15, 10"
+                    HorizontalOptions="FillAndExpand" />
+
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

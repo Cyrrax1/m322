@@ -52,6 +52,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MixMaster.View.HomePage.xa
 build_metadata.AdditionalFiles.TargetPath = View\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\HomePage.xaml
 
+[C:/Users/Terence/source/repos/MixMaster/MixMaster/View/InfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MixMaster.View.InfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\InfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\InfoPage.xaml
+
 [C:/Users/Terence/source/repos/MixMaster/MixMaster/View/LibraryPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MixMaster.View.LibraryPage.xaml
@@ -69,3 +75,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MixMaster.View.SettingsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\SettingsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\SettingsPage.xaml
+
+[C:/Users/Terence/source/repos/MixMaster/MixMaster/View/SignOutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MixMaster.View.SignOutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\SignOutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\SignOutPage.xaml

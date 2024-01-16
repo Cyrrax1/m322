@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MixMaster.View.InfoPage">
+
+    <ScrollView Margin="10">
+        <VerticalStackLayout>
+
+
+            <Frame Padding="10" CornerRadius="10" BackgroundColor="#3A3F42" HasShadow="True" WidthRequest="500">
+                <StackLayout Padding="20">
+                    <Label FontFamily="PoppinsBold" Text="About MixMaster"
+            FontSize="Medium" 
+            FontAttributes="Bold" 
+            VerticalOptions="Center" 
+            HorizontalOptions="Center">
+                    </Label>
+
+                    <Frame BackgroundColor="Transparent" BorderColor="Transparent" HorizontalOptions="CenterAndExpand">
+                        <Label Text="MixMaster Version 1.0" TextColor="White" FontFamily="PoppinsBold" />
+                    </Frame>
+
+                    <StackLayout Orientation="Vertical" Grid.Column="1" HorizontalOptions="CenterAndExpand">
+                        <Label FontFamily="PoppinsRegular" Text="MixMaster" FontSize="Caption" TextColor="White" HorizontalTextAlignment="Center" Margin="5"/>
+                        <Label FontFamily="PoppinsRegular" Text="Eine Musik-App" FontSize="Caption" TextColor="White" HorizontalTextAlignment="Center" Margin="5"/>
+                        <Label FontFamily="PoppinsRegular" Text="Betrieben von MixMaster Technologies" FontSize="Caption" TextColor="White" HorizontalTextAlignment="Center" Margin="5"/>
+                        <Label FontFamily="PoppinsRegular" Text="Hauptsitz in der Schweiz" FontSize="Caption" TextColor="White" HorizontalTextAlignment="Center" Margin="5"/>
+                        <Label FontFamily="PoppinsRegular" Text="Music Avenue 456" FontSize="Caption" TextColor="White" HorizontalTextAlignment="Center" Margin="5"/>
+                        <Label FontFamily="PoppinsRegular" Text="Harmony City, HC 78910" FontSize="Caption" TextColor="White" HorizontalTextAlignment="Center" Margin="5"/>
+                        <Label FontFamily="PoppinsRegular" Text="Email: info@mixmaster.com" FontSize="Caption" TextColor="White" HorizontalTextAlignment="Center" Margin="5"/>
+
+                    </StackLayout>
+
+
+                </StackLayout>
+
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

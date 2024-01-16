@@ -7,23 +7,23 @@
             <Label FontFamily="PoppinsBold" Text="Frequently Asked Questions" FontSize="Header" HorizontalOptions="Center"/>
             <Label FontFamily="PoppinsRegular" Text="Tap on a question to see the answer" FontSize="Small" TextColor="Gray" HorizontalOptions="Center"/>
 
-            <!-- FAQ Item 1 -->
+
             <Frame Padding="10" CornerRadius="10" BackgroundColor="#3A3F42" HasShadow="True">
                 <StackLayout Padding="20">
                     <Label FontFamily="PoppinsBold" Text="How to create a playlist in Mix Master?"
-                        FontSize="Medium" 
-                       FontAttributes="Bold" 
-                       VerticalOptions="Center" 
-                       HorizontalOptions="FillAndExpand">
+                           FontSize="Medium" 
+                           FontAttributes="Bold" 
+                           VerticalOptions="Center" 
+                           HorizontalOptions="FillAndExpand">
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="OnQuestionTapped" NumberOfTapsRequired="1" />
                         </Label.GestureRecognizers>
                     </Label>
                     <Label FontFamily="PoppinsRegular" Text="You can create a playlist by selecting the 'Create Playlist' option in the app. Add your favorite songs and give your playlist a unique name!"
-                       IsVisible="False" />
+           IsVisible="False" />
                 </StackLayout>
             </Frame>
-            
+
             <!-- FAQ Item 2 -->
             <Frame Padding="10" CornerRadius="10" BackgroundColor="#3A3F42" HasShadow="True">
                 <StackLayout Padding="20">

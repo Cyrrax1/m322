@@ -67,6 +67,9 @@
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Poppins-Regular.ttf">
       <PackagePath>Poppins-Regular.ttf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\about.scale-100.png">
+      <PackagePath>about.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
@@ -276,6 +279,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout.scale-100.png">
+      <PackagePath>logout.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\metro.scale-100.png">
       <PackagePath>metro.scale-100.png</PackagePath>

@@ -17,6 +17,9 @@
     <MauiXaml Update="View\HomePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="View\InfoPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="View\LibraryPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -24,6 +27,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="View\SettingsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\SignOutPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

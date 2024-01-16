@@ -6,31 +6,51 @@
     <ScrollView>
         <VerticalStackLayout>
 
-            <Frame BorderColor="Transparent" BackgroundColor="Transparent">
-                <SearchBar Grid.Column="1"
-                Placeholder="Search..."
-                MaximumWidthRequest="800"
-                BackgroundColor="#3A3F42"
-                VerticalOptions="Center"
-                Margin="16,8,16,8" />
-
+            <Frame BorderColor="Transparent" BackgroundColor="Transparent" Margin="40,0,16,16">
+                <Grid ColumnDefinitions="*,Auto">
+                    <SearchBar Grid.Column="0"
+                               Text="{Binding SearchText}"
+                               SearchCommand="{Binding PerformSearchCommand}"
+                               Placeholder="Search..."
+                               MaximumWidthRequest="800"
+                               BackgroundColor="#3A3F42"
+                               VerticalOptions="Center" />
+                </Grid>
             </Frame>
 
-            <Frame BorderColor="Transparent" BackgroundColor="#030303">
+            <!-- Recent Searches Frame -->
+            <Frame BorderColor="Transparent" BackgroundColor="#030303" Margin="0,0,16,16">
                 <Grid ColumnDefinitions="*,Auto,Auto" RowDefinitions="*">
-
-                    <Label Grid.Column="0" FontFamily="PoppinsBold" Text="Recent searches" FontSize="24" Margin="26,30,0,24" HorizontalOptions="Start" VerticalOptions="Center" />
+                    <Label Grid.Column="0" 
+                           Text="Recent Searches" 
+                           FontFamily="PoppinsBold" 
+                           FontSize="24" 
+                           Margin="26,30,0,24" 
+                           HorizontalOptions="Start" 
+                           VerticalOptions="Center" />
 
                     <Button Grid.Column="2"
-                Text="Clear" TextColor="White" 
-                BackgroundColor="#1C1C1E" 
-                MaximumHeightRequest="50" 
-                MaximumWidthRequest="100" 
-                HorizontalOptions="End" VerticalOptions="Center">
+                            Text="Clear"
+                            Command="{Binding ClearSearchCommand}"
+                            TextColor="White" 
+                            BackgroundColor="#1C1C1E" 
+                            MaximumHeightRequest="50" 
+                            MaximumWidthRequest="100" 
+                            HorizontalOptions="End" 
+                            VerticalOptions="Center">
                     </Button>
                 </Grid>
             </Frame>
 
+            <!-- ListView for Recent Searches -->
+            <ListView ItemsSource="{Binding RecentSearches}"
+                      Margin="50,0,16,16">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
 
 
             <Frame BackgroundColor="Transparent" Padding="8" HeightRequest="53" BorderColor="Transparent" Margin="40,0,16,16">
@@ -123,14 +143,18 @@
                 </Grid>
             </Frame>
 
-            <Frame BorderColor="Transparent" BackgroundColor="#030303">
+            
+            
+            
+
+            <Frame BorderColor="Transparent" BackgroundColor="#030303" Margin="0,0,16,16">
                 <Grid ColumnDefinitions="*,Auto,Auto" RowDefinitions="*">
                     <Label Grid.Column="0" FontFamily="PoppinsBold" Text="Based on what you like" FontSize="24" Margin="26,30,0,0" HorizontalOptions="Start" VerticalOptions="Center" />
                 </Grid>
             </Frame>
-            
-            
-            
+
+
+
 
             <Grid ColumnDefinitions="*,*,*,*" RowDefinitions="*,auto" WidthRequest="1240" HeightRequest="450" ColumnSpacing="10">
 

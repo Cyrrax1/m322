@@ -65,7 +65,7 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
-
+            
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

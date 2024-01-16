@@ -337,3 +337,5 @@ C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-maccatalyst\m
 C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\settings.png
 C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\logo.png
 C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\play.png
+C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\faq.png
+C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\MixMaster.sourcelink.json

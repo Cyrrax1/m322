@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-15T21:16:57.540</Modified>
+      <Modified>2024-01-16T21:42:35.027</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-15T21:16:57.421</Modified>
+      <Modified>2024-01-16T21:39:57.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MixMaster.runtimeconfig.json">
       <PackagePath>MixMaster.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-15T19:59:23.382</Modified>
+      <Modified>2024-01-16T18:27:38.458</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MixMaster.dll">
       <PackagePath>MixMaster.dll</PackagePath>
-      <Modified>2024-01-15T21:16:56.660</Modified>
+      <Modified>2024-01-16T21:39:57.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MixMaster.exe</PackagePath>
-      <Modified>2024-01-15T21:16:56.708</Modified>
+      <Modified>2024-01-16T21:39:57.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -56,23 +56,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.197</Modified>
+      <Modified>2024-01-16T18:26:18.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.206</Modified>
+      <Modified>2024-01-16T18:26:18.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.218</Modified>
+      <Modified>2024-01-16T18:26:18.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.243</Modified>
+      <Modified>2024-01-16T18:26:18.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.308</Modified>
+      <Modified>2024-01-16T18:26:18.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -90,189 +90,193 @@
       <PackagePath>Poppins-Regular.ttf</PackagePath>
       <Modified>2022-09-22T05:27:10.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\about.scale-100.png">
+      <PackagePath>about.scale-100.png</PackagePath>
+      <Modified>2024-01-16T21:41:50.007</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-01-15T19:59:12.348</Modified>
+      <Modified>2024-01-16T18:26:18.787</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.622</Modified>
+      <Modified>2024-01-16T18:26:19.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.636</Modified>
+      <Modified>2024-01-16T18:26:19.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.648</Modified>
+      <Modified>2024-01-16T18:26:19.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.667</Modified>
+      <Modified>2024-01-16T18:26:19.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.736</Modified>
+      <Modified>2024-01-16T18:26:19.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.428</Modified>
+      <Modified>2024-01-16T18:26:18.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.431</Modified>
+      <Modified>2024-01-16T18:26:18.868</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.447</Modified>
+      <Modified>2024-01-16T18:26:18.884</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.435</Modified>
+      <Modified>2024-01-16T18:26:18.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.439</Modified>
+      <Modified>2024-01-16T18:26:18.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.402</Modified>
+      <Modified>2024-01-16T18:26:18.839</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.408</Modified>
+      <Modified>2024-01-16T18:26:18.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.424</Modified>
+      <Modified>2024-01-16T18:26:18.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.412</Modified>
+      <Modified>2024-01-16T18:26:18.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.416</Modified>
+      <Modified>2024-01-16T18:26:18.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.358</Modified>
+      <Modified>2024-01-16T18:26:18.794</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.362</Modified>
+      <Modified>2024-01-16T18:26:18.798</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.366</Modified>
+      <Modified>2024-01-16T18:26:18.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.370</Modified>
+      <Modified>2024-01-16T18:26:18.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.376</Modified>
+      <Modified>2024-01-16T18:26:18.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.379</Modified>
+      <Modified>2024-01-16T18:26:18.816</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.383</Modified>
+      <Modified>2024-01-16T18:26:18.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.399</Modified>
+      <Modified>2024-01-16T18:26:18.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.387</Modified>
+      <Modified>2024-01-16T18:26:18.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.390</Modified>
+      <Modified>2024-01-16T18:26:18.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.502</Modified>
+      <Modified>2024-01-16T18:26:18.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.508</Modified>
+      <Modified>2024-01-16T18:26:18.944</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.515</Modified>
+      <Modified>2024-01-16T18:26:18.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.524</Modified>
+      <Modified>2024-01-16T18:26:18.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.542</Modified>
+      <Modified>2024-01-16T18:26:18.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.474</Modified>
+      <Modified>2024-01-16T18:26:18.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.479</Modified>
+      <Modified>2024-01-16T18:26:18.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.483</Modified>
+      <Modified>2024-01-16T18:26:18.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.488</Modified>
+      <Modified>2024-01-16T18:26:18.924</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.497</Modified>
+      <Modified>2024-01-16T18:26:18.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.451</Modified>
+      <Modified>2024-01-16T18:26:18.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.455</Modified>
+      <Modified>2024-01-16T18:26:18.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.460</Modified>
+      <Modified>2024-01-16T18:26:18.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.464</Modified>
+      <Modified>2024-01-16T18:26:18.900</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.470</Modified>
+      <Modified>2024-01-16T18:26:18.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.549</Modified>
+      <Modified>2024-01-16T18:26:18.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.557</Modified>
+      <Modified>2024-01-16T18:26:18.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.566</Modified>
+      <Modified>2024-01-16T18:26:19.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.579</Modified>
+      <Modified>2024-01-16T18:26:19.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-01-15T19:59:12.612</Modified>
+      <Modified>2024-01-16T18:26:19.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow.scale-100.png">
       <PackagePath>arrow.scale-100.png</PackagePath>
@@ -304,23 +308,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-01-15T21:16:40.529</Modified>
+      <Modified>2024-01-16T21:23:06.461</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-01-15T21:16:40.535</Modified>
+      <Modified>2024-01-16T21:23:06.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-01-15T21:16:40.544</Modified>
+      <Modified>2024-01-16T21:23:06.476</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-01-15T21:16:40.562</Modified>
+      <Modified>2024-01-16T21:23:06.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-01-15T21:16:40.607</Modified>
+      <Modified>2024-01-16T21:23:06.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\drake.scale-100.png">
       <PackagePath>drake.scale-100.png</PackagePath>
@@ -369,6 +373,10 @@
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
       <Modified>2024-01-15T17:40:57.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout.scale-100.png">
+      <PackagePath>logout.scale-100.png</PackagePath>
+      <Modified>2024-01-16T19:54:30.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\metro.scale-100.png">
       <PackagePath>metro.scale-100.png</PackagePath>
@@ -448,7 +456,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\source\repos\MixMaster\MixMaster\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MixMaster.deps.json">
       <PackagePath>MixMaster.deps.json</PackagePath>
-      <Modified>2024-01-15T20:49:09.409</Modified>
+      <Modified>2024-01-16T21:17:16.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Terence\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

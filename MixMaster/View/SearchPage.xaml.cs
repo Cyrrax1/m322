@@ -8,6 +8,8 @@ namespace MixMaster.View
         public SearchPage()
         {
             InitializeComponent();
+            BindingContext = new SearchViewModel();
         }
     }
+
 }

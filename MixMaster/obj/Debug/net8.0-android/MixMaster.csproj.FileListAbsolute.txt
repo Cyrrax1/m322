@@ -138,3 +138,4 @@ C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-android\resiz
 C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-android\resizetizer\r\drawable\play.png
 C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-android\resizetizer\r\drawable\settings.png
 C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-android\resizetizer\r\drawable\profile.png
+C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-android\resizetizer\r\drawable\faq.png

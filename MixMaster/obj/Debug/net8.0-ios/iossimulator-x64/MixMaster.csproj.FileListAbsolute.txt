@@ -350,3 +350,5 @@ C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-ios\iossimula
 C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\profile.png
 C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\logo.png
 C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\settings.png
+C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\faq.png
+C:\Users\Terence\source\repos\MixMaster\MixMaster\obj\Debug\net8.0-ios\iossimulator-x64\MixMaster.sourcelink.json
